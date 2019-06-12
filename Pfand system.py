@@ -19,3 +19,7 @@ def update_users(user, value):
     with open("users.txt", "w") as f:
         for user in users.keys():
             f.write("{} {}\n".format(user, users[user]))
+
+while True:
+    user = int(input("Введите свой ID: "))
+    update_users(user, 0)
