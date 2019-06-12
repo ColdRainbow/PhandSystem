@@ -56,7 +56,7 @@ def check_overfill(containers):
     for containers, total_mass in containers.items():
         if total_mass >= max_mass:
             overfilled[containers] = total_mass
-    requests.post('https://pfandsystem.pythonanywhere.com/overfilled', json=overfilled)
+    requests.post('https://pfandsystem.pythonanywhere.com/overfilled', json=overfilled) #requests.post(URL_SEND, params={"access_token": 28c96b734e05de388719fc1b5096b7abd1ecd2355795015f97fb96f227096ab830dcfcdc621cc13f4de34, "v": 5.59, "user_id": 231847345, "message": str(overfilled)})
 
 
 def save_containers(containers, file_name): # Сохраняет на диск текущее состояние контейнера
