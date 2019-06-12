@@ -1,0 +1,8 @@
+MET 0
+PPR 0
+GLS 0
+PET 0
+HDPE 0
+PELD 0
+PP 0
+PS 0

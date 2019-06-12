@@ -1,0 +1,8 @@
+0 MET 2
+1 PPR 2
+2 GLS 2
+3 PET 2
+4 HDPE 2
+5 PELD 2
+6 PP 2
+7 PS 2
